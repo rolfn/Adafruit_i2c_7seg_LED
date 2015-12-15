@@ -1,5 +1,5 @@
 # Adafruit_i2c_7seg_LED
-A Arduino library for Adafruit 7-segment displays like
+An Arduino library for Adafruit's 7-segment displays (i2c) like
 [this](https://www.adafruit.com/products/879) or
 [that](https://www.adafruit.com/products/1269). The library is much simpler
 than the library provided by
