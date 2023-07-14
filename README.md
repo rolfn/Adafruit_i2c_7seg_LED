@@ -4,6 +4,6 @@ An Arduino library for Adafruit's 7-segment displays (i2c) like
 [that](https://www.adafruit.com/products/1269). The library is much simpler
 than the library provided by
 [Adafruit](https://github.com/adafruit/Adafruit-LED-Backpack-Library). It based
-on Peter Sjoberg's  [htk1633 library](https://github.com/lpaseen/ht16k33).
+on Peter Sjoberg's  [ht16k33 library](https://github.com/lpaseen/ht16k33).
 
 TODO: Implementing 'setBrightness' or similar
