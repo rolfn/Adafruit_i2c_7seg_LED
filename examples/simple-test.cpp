@@ -1,4 +1,3 @@
-
 /*
  * simple-test.cpp
  * 
@@ -6,7 +5,7 @@
  * See: https://github.com/rolfn/Adafruit_i2c_7seg_LED
  * 
  * Copyright:  Rolf Niepraschk 
- * License: MIT
+ * License: GPLv3
  *
  */
 
@@ -44,10 +43,16 @@ void setup() {
   delay(1000);
   // send memory content to the LED's
   disp1.sendLed();
-  delay(1000);
+  delay(500);
   disp1.clearAllDigitsNow();
+  delay(500);
+  disp1.setSymbolNow(DIGIT_3, MINUS);
+  disp1.setSymbolNow(DIGIT_4, MINUS);
+  disp1.sendLed();
   delay(1000);
   disp1.clearPoint(COLON);
+  disp1.clearDigit(DIGIT_3);
+  disp1.clearDigit(DIGIT_4);
   disp1.sendLed();
 }
 
