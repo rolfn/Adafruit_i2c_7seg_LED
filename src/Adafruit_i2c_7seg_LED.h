@@ -5,7 +5,7 @@
  * See: https://github.com/rolfn/Adafruit_i2c_7seg_LED
  * 
  * Copyright:  Rolf Niepraschk 
- * License: GPLv3
+ * License: MIT
  *
  */
  
